@@ -1,0 +1,122 @@
+.header {
+    background: url("../image/header/header-img.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 831px;
+}
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 88px;
+    margin-bottom: 119px;
+}
+.header__logo {
+    margin-right: 214px;
+}
+.header__menulink {
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.header__link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    color: #FFFFFF;
+}
+.header__nomber {
+    margin-left: 214px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.header__aboutblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__title {
+    margin-bottom: 50px;
+    width: 768px;
+    height: 315px;
+}
+.header__title_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 109%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.header__subtitle {
+    margin-bottom: 50px;
+    width: 562px;
+    height: 56px;
+}
+.header__subtitle_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header__search {
+    width: 118px;
+    height: 34px;
+}
+.header__searchbtn {
+    text-decoration: none;
+    padding: 5px 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 142%;
+    letter-spacing: -0.01em;
+    color: #1B1F2B;
+}
+/*@media (min-width: 1024px){
+    .wrapper {
+        width: 1024px;
+    }
+    .header {
+        background: url("../image/header/header-img.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 1024px;
+        height: 831px;
+    }
+    .header__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 1024px;
+        height: 88px;
+    }
+}*/
